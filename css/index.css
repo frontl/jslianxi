@@ -1,0 +1,68 @@
+*{
+	padding:0;
+	margin:0;
+}
+html{
+	height:100%;
+	width:100%;
+}
+body{
+ height:100%;
+ width:100%;
+ }
+.jslianxi{
+	width:100%;
+	height:100%;
+	background:pink;
+	overflow: auto;
+}
+.jslianxi ul{
+	margin-top:10px;
+	margin:0 auto;
+	width:80%;
+	height:auto;
+	overflow: hidden;
+}
+.jslianxi ul li{
+	float:left;
+	list-style: none;
+	height:100px;
+	width:25%;
+	padding:10px;
+	box-sizing: border-box;
+    border:1px solid red;
+	background:#fff;
+	margin-top:5px;
+	
+	text-align: center;
+	line-height: 78px;
+	cursor: pointer;
+}
+.box{
+	display:none;
+	position: absolute;
+	height:100%;
+	width:100%;
+	background:#ccc;
+}
+.box-1{
+	width:300px;
+	padding:20px 40px;
+	box-sizing: border-box;
+	background:red;
+	margin:20% auto;
+
+}
+.box-2{
+	width:100px;
+	height:40px;
+	outline: none;
+	border:0;
+	border:1px solid red;
+	background:#fff;
+	cursor: pointer;
+}
+.b{
+	width:80%;
+	margin:0 auto;
+}
